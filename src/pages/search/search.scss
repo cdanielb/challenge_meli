@@ -1,0 +1,26 @@
+.div-search {
+    width: 720px;
+    padding: 0px 0px 0px 7px;
+    margin: auto;
+    margin-top: 5rem;
+    position: relative;
+    max-width: 720px;
+}
+
+.control-search,
+.button-search {
+    border-radius: 0 !important;
+}
+
+.button-search {
+    color: #000000;
+    background-color: #eeeeee;
+}
+
+.div-search-header {
+    width: 95%;
+    padding: 2vh 0px 0px 2vh;
+    // margin: auto;
+    position: relative;
+    max-width: 95%;
+}

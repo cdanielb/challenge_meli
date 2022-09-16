@@ -1,0 +1,44 @@
+@import "~bootstrap/scss/bootstrap";
+
+.header {
+    background-color: #fee600;
+    width: 100%;
+
+    .logo-header {
+        width: 70px;
+        position: absolute;
+        // margin-left: 10vw;
+        margin-top: 1.5vh;
+    }
+}
+
+body{
+    background-color: #eeeeee;
+    font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    font-size: 14px;
+    color: #878787;
+}
+
+.container-responses{
+    width: 100%;
+    padding-top: 2em;
+    display: flex;
+    justify-content: center;
+    .items-responses{
+        overflow: auto;
+        width: 75vw;
+        height: 82vh;
+        background: #ffffff;
+        .item{
+            margin-top: 10px;
+        }
+        
+    }
+}
+
+.paginator{
+    width: 75vw;
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+}
